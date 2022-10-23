@@ -201,6 +201,7 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 1.5rem 0;
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2933,6 +2934,15 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #18bfef;
 	}
 
+	.twopics{
+		box-sizing:border-box;
+		float:left;
+		width:50%;
+		padding:5px;
+		text-align:center;
+	}
+
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2977,7 +2987,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 0rem 0;
 			text-align: center;
 		}
 
@@ -3811,7 +3821,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 5rem 8rem 6rem 8rem ;
+			padding: rem 8rem 6rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
